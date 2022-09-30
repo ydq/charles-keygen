@@ -1,0 +1,117 @@
+:root {
+  font-family: PingFang SC, Microsoft YaHei;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #242424;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+}
+
+body {
+  margin: auto;
+  width: 100%;
+  max-width: 680px;
+}
+
+
+a {
+  font-weight: 500;
+  color: #646cff;
+  text-decoration: inherit;
+}
+
+a:hover {
+  color: #535bf2;
+}
+
+input {
+  flex: 2;
+  appearance: none;
+  box-sizing: border-box;
+  border: none;
+  border-bottom: 1px solid #fff;
+  border-radius: 0;
+  color: #747bff;
+  height: 32px;
+  line-height: 32px;
+  text-indent: .5rem;
+  font-size: 1rem;
+  outline: 0;
+  background: none;
+}
+
+blockquote {
+  margin: 1rem 0;
+  padding-left: 1rem;
+  border-left: 3px solid #646cff;
+}
+
+summary {
+  margin: 1rem 0;
+  cursor: pointer;
+  user-select: none;
+  font-weight: 500;
+}
+
+fieldset {
+  margin: 0;
+  display: flex;
+  border: 1px dashed currentColor;
+  font-weight: 500;
+  padding: 1rem;
+}
+
+label {
+  flex: 1;
+  text-align: center;
+  line-height: 32px;
+}
+
+@media (prefers-color-scheme: light) {
+  :root {
+    color: #213547;
+    background-color: #ffffff;
+  }
+
+  a:hover {
+    color: #747bff;
+  }
+
+  input {
+    color: #535bf2;
+    border-color: #505050
+  }
+
+  blockquote {
+    color: #505050;
+  }
+}
+
+#app {
+  box-sizing: border-box;
+  width: 100%;
+  padding: 0 1rem;
+}
+
+@media (max-width:500px) {
+  fieldset {
+    flex-direction: column;
+    padding-top: 0;
+  }
+
+  label {
+    text-align: left;
+  }
+
+  input {
+    text-indent: 0 !important;
+  }
+}
