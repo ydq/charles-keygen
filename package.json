@@ -1,0 +1,14 @@
+{
+  "name": "charles-keygen",
+  "homepage": "https://ydq.github.io/charles-keygen",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build"
+  },
+  "devDependencies": {
+    "vite": "^6.2.4"
+  }
+}

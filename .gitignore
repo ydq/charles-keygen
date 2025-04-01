@@ -1,0 +1,8 @@
+# Logs
+logs
+*.log
+node_modules
+dist
+*.local
+.vscod
+.DS_Store
